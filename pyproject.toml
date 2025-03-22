@@ -1,0 +1,14 @@
+[project]
+name = "metal-puzzles"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chalk-diagrams",
+    "ipykernel>=6.29.5",
+    "mlx>=0.24.0",
+]
+
+[tool.uv.sources]
+chalk-diagrams = { git = "https://github.com/danoneata/chalk", rev = "srush-patch-1" }
